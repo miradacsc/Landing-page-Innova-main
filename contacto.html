@@ -16,7 +16,7 @@
 
   <body>
     <header class="hero">
-      <div class="hero-wave"></div>
+      
       <nav class="nav container">
         <figure class="nav-logo">
           <img src="images/innovainclusion.png" class="nav-img" alt="logo principal" />
@@ -26,13 +26,69 @@
         <a href="nosotros.html" class="nav-link">Nosotros</a>
         <a href="contacto.html" class="nav-link">Contacto</a>
       </nav>
-      <section class="hero-main container">
-         <main>
+      </header>
+      <main class="main container2">
+
+        <form class="my-form">
+          <div class="container-form">
+            <h1>¡Charlemos!</h1>
+            <ul>
+              <li>
+                <select>
+                  <option selected disabled>-- Por favor elige una opción --</option>
+                  <option>Asesoramiento Empresas</option>
+                  <option>Asesoramiento Personas </option>
+                  <option>Otra</option>
+                </select>
+              </li>
+              <li>
+                <div class="grid grid-2">
+                  <input type="text" placeholder="Nombre" required>
+                  <input type="text" placeholder="Apellido" required>
+                </div>
+              </li>
+              <li>
+                <div class="grid grid-2">
+                  <input type="email" placeholder="Email" required>
+                  <input type="tel" placeholder="Teléfono">
+                </div>
+              </li>
+              <li>
+                <textarea placeholder="Mensaje"></textarea>
+              </li>
+              <li>
+                <input type="checkbox" id="terms">
+                <label for="terms">He leido y aceptado los términos y condiciones.</label>
+              </li>
+              <li>
+                <div class="grid grid-3">
+                  <div class="required-msg">CAMPOS OBLIGATORIOS</div>
+                  <button class="btn-grid" type="submit" disabled>
+                    <span class="back">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                    </span>
+                    <span class="front">ENVIAR</span>
+                  </button>
+                  <button class="btn-grid" type="reset" disabled>
+                    <!--
+                    <span class="back">
+                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                    </span>-->
+                    <span class="front">CANCELAR</span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </form>
+       
+      
+        
 
         <a href="index.html" class="nav-link">Ir al Inicio</a>
       </main>
-      </section>
-    </header>
+      
+   
     <footer class="footer">
       <section class="footer-container container">
         <img src="images/logo.png" class="footer-logo" alt="Logo del footer" />
