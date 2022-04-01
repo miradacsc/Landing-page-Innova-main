@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Landing Page | InnovaInclusión</title>s
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://kit.fontawesome.com/f4ced1ac5a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero">
+
+        <nav class="nav container">
+            <figure class="nav-logo">
+                <img src="images/innovainclusion.png" class="nav-img" alt="logo principal" />
+            </figure>
+
+            <a href="servicios.html" class="nav-link">Servicios</a>
+            <a href="nosotros.html" class="nav-link">Nosotros</a>
+            <a href="contacto.html" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+    <main class="main container2">
+
+        <div class="preguntas">
+            <div class="preguntas-title">
+                <h1 class="roboto_700">Mitos VS Realidad</h1>
+            </div>
+            <div class="preguntas-cards">
+
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q1">
+                        <h1 class="roboto_700">¿Tendré que invertir mucho dinero en innovación, en investigación y en
+                            conocimiento para adaptar mi empresa?</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(1)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a1">
+                        <p class="roboto_500">No necesariamente implican gastos o cargas desmedidas. En muchas ocasiones
+                            solo requieren de creatividad y disposición, valiéndose de herramientas tecnológicas ya
+                            existentes. Por ejemplo, fomentar la comunicación mediante notas de voz de Whatsapp a una
+                            persona con movilidad reducida, o implementar lectores de pantalla -de descarga gratuita- en
+                            computadores para personas ciegas o con baja visión.</p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q2">
+                        <h1 class="roboto_700">Las páginas accesibles no son atractivas, solo tienen texto sin imágenes
+                            ni colores, nos van a ahuyentar a usuarios que pueden ver.</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(2)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a2">
+                        <p class="roboto_500">TÓmalo como un reto creativo. El diseño accesible no tiene por qué ser
+                            así, algo que los arquitectos y diseñadores de productos industriales han estado defendiendo
+                            durante años. La accesibilidad, junto con la usabilidad, puede y debe ser la base de una
+                            experiencia encantadora para todos.</p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q3">
+                        <h1 class="roboto_700">Las personas con discapacidad no utilizan la Web</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(3)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a3">
+                        <p class="roboto_500">Más bien todo lo contrario, como ha demostrado el COVID-19, una adaptación
+                            rápida es crucial: El teletrabajo, el aprendizaje digital, los servicios digitales y la
+                            necesidad de competencias digitales se convirtieron en la nueva realidad en un tiempo récord
+                            y las personas con discapacidad en conjunto con el avance de tecnologías como inteligencia
+                            artificial, la robótica, hemos sabido valernos de estas herramientas y ser más autónomos.
+                        </p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q4">
+                        <h1 class="roboto_700">La accesibilidad es sólo para ciegos.</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(4)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a4">
+                        <p class="roboto_500">Existen usuarios con diferentes tipos de discapacidad que pueden
+                            experimentar distintos problemas de acceso y uso del contenido de las páginas web.</p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q5">
+                        <h1 class="roboto_700">La accesibilidad para las personas con discapacidad</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(5)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a5">
+                        <p class="roboto_500">Aunque las personas con discapacidad pueden ser los usuarios que más se
+                            beneficien al aplicar la accesibilidad web, en realidad se beneficia todo el mundo, ya que
+                            también ayuda a cualquier usuario que se encuentre en circunstancias especiales como puede
+                            ser entornos con baja iluminación, ambientes ruidosos, acceso a Internet con conexiones y
+                            equipos con capacidades limitadas, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q6">
+                        <h1 class="roboto_700"> OTRO MITO</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(6)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a6">
+                        <p class="roboto_500">OTRA RESPUESTA</p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q7">
+                        <h1 class="roboto_700">OTRO MITO</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(7)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a7">
+                        <p class="roboto_500">OTRA RESPUESTAS</p>
+                    </div>
+                </div>
+                <div class="preguntas-cards-item">
+                    <div class="preguntas-cards-item-question q8">
+                        <h1 class="roboto_700">OTRO MITO</h1>
+                        <i class="fas fa-minus-circle" onclick="questionShowHide(8)"></i>
+                    </div>
+                    <div class="preguntas-cards-item-answer a8">
+                        <p class="roboto_500">OTRA RESPUESTA
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="centrado">
+            <a href="index.html" class="nav-link">Ir al Inicio</a>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer-container container">
+            <img src="images/logo.png" class="footer-logo" alt="Logo del footer" />
+
+            <div class="footer-items">
+                <p class="footer-contact footer-contact--first">
+                    <img src="images/icon-location.svg" class="footer-icon" alt="Logo de ubicación" />
+                    Aquí podríamos colocar en que lugar está ubicada nuestra
+                    organización y dar alguna indicación de como llegar tal vez.
+                </p>
+
+                <div class="footer-content">
+                    <p class="footer-contact footer-contact--second">
+                        <img src="images/icon-phone.svg" class="footer-icon" alt="Logo de teléfono" />
+                        +00000000
+                    </p>
+
+                    <div class="footer-location">
+                        <p class="footer-contact">
+                            <img src="images/icon-email.svg" class="footer-icon" alt="Logo de ubicación" />
+                            ejemplo@innova.com
+                        </p>
+                    </div>
+                </div>
+
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">Sobre Nosotros</a>
+                    <a href="#" class="footer-link">Trabajo</a>
+                    <a href="#" class="footer-link">Prensa</a>
+                    <a href="#" class="footer-link">Blog</a>
+                </nav>
+
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">Contacto</a>
+                    <a href="#" class="footer-link">Términos</a>
+                    <a href="#" class="footer-link">Privacidad</a>
+                </nav>
+
+                <div class="footer-social">
+                    <a href="#" class="footer-media">
+                        <img src="images/fb.svg" class="footer-img" alt="Icono de facebook" />
+                    </a>
+                    <a href="#" class="footer-media">
+                        <img src="images/twitter.svg" class="footer-img" alt="Icono de twitter" />
+                    </a>
+                    <a href="#" class="footer-media footer-media--last">
+                        <img src="images/instagram.svg" class="footer-img" alt="Icono de instagram" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="./javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+
+</html>
