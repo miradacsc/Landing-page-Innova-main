@@ -77,8 +77,7 @@ body {
 }
 
 .nav-img {
-  width: 250px;
-  height: 110px;
+  width: 100px;
   display: block;
 }
 
@@ -389,6 +388,21 @@ body {
     font-size: 2.5rem;
   }
 
+  
+  .nav-img {
+    width: 160px;
+    height: 115px;
+  }
+   
+  .hero-img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
+  
+
   .hero-wave::before {
     background-image: url("../images/bg-curvy-desktop.svg");
   }
@@ -450,11 +464,19 @@ body {
   .footer-media--last {
     margin-right: 0;
   }
+
+  .video {
+    width: 620px;
+    height: 440px;
+  }
 }
+
+
 
 /* Cuestionario style */
 
 .quiz {
+  position: relative;
   background: var(--blue-intro);
   color: #f5f1f1;
   width: 740px;
@@ -523,14 +545,6 @@ body {
   color: rgb(70, 248, 34);
 }
 
-div.container .checklist_img{
-  float:right;
-  width: 25%;
-}
-
-div.reset {
-  clear: both;
-}
 
 .quiz-message>h3{
   padding: 1em;
@@ -577,6 +591,8 @@ div.reset {
   text-decoration: none;
   font-size: 1.2em;
 }
+
+
 
 /* nosotros */
 .auto-grid {
