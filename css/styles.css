@@ -77,7 +77,7 @@ body {
 }
 
 .nav-img {
-  width: 190px;
+  width: 250px;
   height: 110px;
   display: block;
 }
@@ -544,14 +544,14 @@ div.reset {
   width: 250px;
   padding: .5em 0;
   border-radius: 2em;
-  background-image: var(--gradient);
+  background-color: var(--blue-testimonials);
   color: #fff;
   font-weight: bold;
   place-self: center;
   font-family: var(--heading-font);
   text-decoration: none;
   margin-top:1em;
-  
+  border: 1px solid var(--blue-gradient);
 }
 
 .about-cta a{ 
@@ -564,11 +564,11 @@ div.reset {
   width: 300px;
   padding: .3em ;
   border-radius: 2em;
-  background-color: rgb(55, 174, 31);
+  background-color: var(--blue-testimonials);
   font-weight: bold;
   place-self: center;
   font-family: var(--heading-font);
-  
+  border: 1px solid greenyellow;
   margin-top: 1em;
 }
 
@@ -1124,7 +1124,7 @@ ul {
 }
 
 
-/* galeria
+/* galeria */
 .box {
   background-color: #282c34;
   font-family: sans-serif;
